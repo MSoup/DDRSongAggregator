@@ -13,6 +13,8 @@ class DDRSpider(scrapy.Spider):
 
         for row in range(1,len(rows)-13):
             yield {
-                'song': rows[row].xpath('td//text()')[0].get(),
-                'artist': rows[row].xpath('td//text()')[1].get()
+                'index': row,
+                'song': rows[row].xpath('td//text()')[0].get().strip(),
+                'artist': rows[row].xpath('td//text()')[1].get().strip(),
+                'from': rows[row].xpath('td//text()')[2].get().strip()
             }
