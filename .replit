@@ -1,0 +1,2 @@
+language = "python3"
+run = "python ddr_wiki_spider/clean_songlist.py"
