@@ -1,9 +1,7 @@
 # DDRSongAggregator
-Get DDR song list and find all songs available on spotify
+A script that grabs the song list of all the DDR songs on Wikipedia and find all the existing songs available on spotify
 
-My first project.
-
-Uses Python and Scrapy to find a list of DDR songs. Automatically searches spotify and returns a list of songs available.
+Searches spotify and returns a list of songs available.
 
 Complete
 - [X] Learn to crawl any webpage
@@ -14,9 +12,3 @@ Complete
 - [X] Access json
 - [X] Output relevant data to text file
 - [X] Access text file and manipulate data
-
-To-Do
-- [ ] Learn to send a request to the Spotify API
-- [ ] Test with one song
-- [ ] Save data into text file
-- [ ] Win
