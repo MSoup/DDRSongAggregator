@@ -3,6 +3,8 @@ A script that grabs the song list of all the DDR songs on Wikipedia and find all
 
 Searches spotify and returns a list of songs available.
 
+Stack: Python 100%
+
 ## How it works
 
 - crawls Wikipedia DDR page
