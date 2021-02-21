@@ -3,12 +3,23 @@ A script that grabs the song list of all the DDR songs on Wikipedia and find all
 
 Searches spotify and returns a list of songs available.
 
-Complete
-- [X] Learn to crawl any webpage
-- [X] Crawl wikipedia DDR page
-- [X] Extract relevant information from table
-- [X] Clean information
-- [X] Store in json
-- [X] Access json
-- [X] Output relevant data to text file
-- [X] Access text file and manipulate data
+## How it works
+
+- crawls Wikipedia DDR page
+- extracts relevant info from table
+- cleans the data
+- stores the data in json format
+- subsequent runs access the json
+- outputs cleaned data to text file
+
+## Issues
+
+- apple music integration not yet supported
+- dependent on wikipedia page being updated
+
+## To be done
+
+- pull from Konami servers rather than wikipedia? 
+- query more music apps?
+- connect to front end to allow users to query a series of their choice
+
