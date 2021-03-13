@@ -25,3 +25,5 @@ Stack: Python 100%
 - query more music apps?
 - connect to front end to allow users to query a series of their choice
 
+## Updates
+3/13- gonna clean the extraction process and connect to front end
